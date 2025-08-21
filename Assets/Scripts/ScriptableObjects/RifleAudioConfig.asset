@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2cbc56b9828e1349ba1ba4f76d1ab46, type: 3}
+  m_Name: RifleAudioConfig
+  m_EditorClassIdentifier: 
+  rifleFire: {fileID: 8300000, guid: 7fa2efe275010614fa3e639f025d0ea3, type: 3}
+  boltLock: {fileID: 8300000, guid: ddeac42207872d546af52ffb0856c35c, type: 3}
+  boltOpen: {fileID: 8300000, guid: 6fe3c7a4980497e42b0eb975c501ff7e, type: 3}
+  magazineRemoved: {fileID: 8300000, guid: 7d7fbb399f253dd449235a55bf5a2d53, type: 3}
+  magazineInserted: {fileID: 8300000, guid: f8c7874e45a75d64a9e95b6621d8045c, type: 3}
+  volume: 1
