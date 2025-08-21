@@ -9,8 +9,8 @@ All asssets except  textures and sounds were made from scratch. Assets such as t
 
 ## Features
 - **Weapon Handling**: The weapon interaction replicates a boltaction rifle with the user needing to cycle each rocket between firing. Magazines are attachable using a socket interactor with the animation of the boltcycling consisting of blendtrees and interaction colliders. 
-![Gameplay Screenshot](path-to-image)
-- **Custom grab Interactable** The rifle is can be held two handed and to make the experience m,ore enjoyable a custom XR grab was implemtend allowing for more dynamic attachpooints.
+![Gameplay Screenshot]([path-to-image](https://github.com/AKSB-GP/SniperFrenzy/blob/main/boltinteraction-compressed.gif))
+- **Custom grab Interactable** The rifle is can be held two handed and to make the experience m,ore enjoyable a custom XR grab was implemented allowing for more dynamic attachpoints.
 - 
 - **Customaziable gameloop**: Gameloop can be adjusted with maximum amount of enemies, spawnintervals, minimum and-maximum distances, movement speed etc.
 
