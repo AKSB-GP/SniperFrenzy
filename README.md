@@ -1,7 +1,6 @@
 # Sniper Frenzy
 A project focused on creating a simple but frantic gameloop for the Quest 2 platform using Unity 6.2. The game focuses on defending your tower against an ever-increasing amount of robots using your rocket rifle! 
 ![Gameplay Screenshot](https://github.com/AKSB-GP/SniperFrenzy/blob/main/RifleScopeview2.jpg)
-![Gameplay Screenshot](https://github.com/AKSB-GP/SniperFrenzy/blob/main/RifleView.jpg)
 
 ## About the Game
 For the project I wanted to explore various aspects of XR interactions with a toon style as well as explore the general game-development cycle.
@@ -15,7 +14,8 @@ All asssets except textures and sounds were made from scratch. Assets such as th
 ![Gameplay Screenshot](https://github.com/AKSB-GP/SniperFrenzy/blob/main/boltinteraction-compressed.gif)
 - **Custom grab Interactable** The rifle is can be held two handed, however the basic two handed interaction was too basic and I wanted to make the experience more enjoyable. Thus a custom XR grab was implemented allowing for more dynamic attachpoints.
 ![Gameplay Screenshot](GrabReload.gif)
-- **Customaziable gameloop**: Gameloop can be adjusted with maximum amount of enemies, spawnintervals, minimum and-maximum distances, movement speed etc.
+- **Customizable gameloop**: Gameloop can be adjusted with maximum amount of enemies, spawnintervals, minimum and-maximum distances, movement speed etc.
+- **Object Pooling**: While the game is specific in scope I still aimed to perform good practices and thus made use of Unitys object pooling system for handling enemy instancing. 
 - **Toon shading**: I wanted various shaders technics such as scope shaders and toon shading technics using both HLSL and Shadergraph.
 
 ## 🛠️ Tech Stack
